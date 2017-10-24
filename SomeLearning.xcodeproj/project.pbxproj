@@ -16,6 +16,7 @@
 		7C53CF2D1F9F642F00669FBB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C53CF2C1F9F642F00669FBB /* main.m */; };
 		7C53CF371F9F642F00669FBB /* SomeLearningTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C53CF361F9F642F00669FBB /* SomeLearningTests.m */; };
 		7C53CF421F9F642F00669FBB /* SomeLearningUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C53CF411F9F642F00669FBB /* SomeLearningUITests.m */; };
+		7C53CF511F9F6CF700669FBB /* ContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C53CF501F9F6CF700669FBB /* ContentViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		7C53CF3D1F9F642F00669FBB /* SomeLearningUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SomeLearningUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C53CF411F9F642F00669FBB /* SomeLearningUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SomeLearningUITests.m; sourceTree = "<group>"; };
 		7C53CF431F9F642F00669FBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C53CF4F1F9F6CF700669FBB /* ContentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContentViewController.h; sourceTree = "<group>"; };
+		7C53CF501F9F6CF700669FBB /* ContentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContentViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				7C53CF281F9F642F00669FBB /* LaunchScreen.storyboard */,
 				7C53CF2B1F9F642F00669FBB /* Info.plist */,
 				7C53CF2C1F9F642F00669FBB /* main.m */,
+				7C53CF4F1F9F6CF700669FBB /* ContentViewController.h */,
+				7C53CF501F9F6CF700669FBB /* ContentViewController.m */,
 			);
 			path = SomeLearning;
 			sourceTree = "<group>";
@@ -271,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7C53CF221F9F642F00669FBB /* UserViewController.m in Sources */,
+				7C53CF511F9F6CF700669FBB /* ContentViewController.m in Sources */,
 				7C53CF1C1F9F642F00669FBB /* AppDelegate.m in Sources */,
 				7C53CF2D1F9F642F00669FBB /* main.m in Sources */,
 				7C53CF1F1F9F642F00669FBB /* HomeViewController.m in Sources */,
